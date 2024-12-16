@@ -270,40 +270,56 @@ header {
     position: relative;
     max-width: 50%;
     max-height: auto;
-    margin-left: 25%;
+    left: 25%;
 
     .parrafo {
         margin-top: 17%;
     }
 
-    h2 {
-        width: auto;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: 40.8px;
-        color: rgba(0, 0, 0, 0.5);
-    }
-
+    h2,
     h3,
     p,
-    li {
+    ol>li,
+    ul>li {
         width: auto;
         text-align: justify;
-        font-size: 25px;
+        font-size: 18px;
         color: rgba(0, 0, 0, 0.5);
-        list-style: decimal;
+        line-height: 1.5em;
     }
 
-    li {
+    h2 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 40px;
+        margin-bottom: -2%;
+    }
+
+    h3 {
+        font-size: 25px;
+        margin-bottom: -2%;
+    }
+
+    ol>li {
         padding: 20px;
+        font-weight: bold;
+    }
+
+    ul>li {
+        list-style: disc;
     }
 
     img {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
         max-width: 600px;
         height: auto;
-        margin-left: 5%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
         border-radius: 10px;
+        margin-bottom: 3em;
     }
 
     .botones {
@@ -311,6 +327,7 @@ header {
         justify-content: space-between;
         position: sticky;
         bottom: 5%;
+        margin-top: 5%;
     }
 
     input {
@@ -358,9 +375,9 @@ header {
 
 /* Estilo del footer */
 footer {
-    width: calc(100vw - 2rem);
+    width: calc(100vw - 4rem);
     height: auto;
-    padding: 1rem;
+    padding: 2rem;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;

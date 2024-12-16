@@ -41,25 +41,87 @@
     <main class="content-manual">
         <div class="parrafo">
             <h2>Login</h2>
-            <h3>¿Qué es un login?</h3>
-            <p>Un login es ...</p>
+            <h3>Descripción General</h3>
+            <p>La ventana de inicio de sesión permite al usuario acceder a una aplicación proporcionando sus
+                credenciales. Consta de campos para introducir un nombre de usuario y una contraseña, así como botones
+                para confirmar o cancelar la acción.</p>
+                
+            <img src="../Imagenes/login.png" alt="Login">
+            
+            <h3>Componentes de la Ventana</h3>
+            <ol>
+                <li>Área de bienvenida</li>
+                <ul>
+                    <li>Ubicación: A la izquierda de la pantalla.</li>
+                    <li>Descripción: Mensaje de bienvenida que indica la función del formulario ("Welcome to the Login
+                        form").</li>
+                </ul>
+                <li>Campo de entrada: Nombre de Usuario (Username)</li>
+                <ul>
+                    <li>Ubicación: Parte central de la ventana, debajo de la imagen de usuario.</li>
+                    <li>Función:
+                        <ul>
+                            <li>El usuario debe introducir su nickname o nombre de usuario.</li>
+                            <li>Este campo está en blanco y permite texto.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <li>Campo de entrada: Contraseña (Password)</li>
+                <ul>
+                    <li>Ubicación: Debajo del campo de nombre de usuario.</li>
+                    <li>Función:
+                        <ul>
+                            <li>El usuario debe introducir su contraseña.</li>
+                            <li>Este campo permite ocultar los caracteres introducidos por seguridad.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <li>Botón "Ok"</li>
+                <ul>
+                    <li>Ubicación: Debajo de los campos de entrada.</li>
+                    <li>Función:
+                        <ul>
+                            <li>Al hacer clic en "Ok", el sistema procesa las credenciales y permite continuar a la
+                                siguiente pantalla si los datos son correctos.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <li>Botón "Cancelar"</li>
+                <ul>
+                    <li>Ubicación: Debajo del botón "Ok".</li>
+                    <li>Función:</li>
+                    <ul>
+                        <li>Al hacer clic en "Cancelar", la aplicación se cierra.</li>
+                    </ul>
+                </ul>
+                <li>Imagen de Icono</li>
+                <ul>
+                    <li>Ubicación: Parte superior central.</li>
+                    <li>Descripción: Representa un usuario con una llave, indicando la necesidad de autenticación.</li>
+                </ul>
+            </ol>
 
-            <br>
-            <h3>Pasos</h3>
-            <ul>
-                <li>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
-                    sido el texto de relleno</li>
-                <img src="../Imagenes/login.png" alt="">
-                <li>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
-                    sido el texto de relleno</li>
-                <img src="../Imagenes/" alt="">
-                <li>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
-                    sido el texto de relleno</li>
-                <img src="../Imagenes/" alt="">
-                <li>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
-                    sido el texto de relleno</li>
-                <img src="../Imagenes/" alt="">
-            </ul>
+            <h3>Flujo de Uso</h3>
+            <ol>
+                <li>Inicio:</li>
+                <p>El usuario visualiza la ventana con el mensaje de bienvenida y los campos vacíos.</p>
+
+                <li>Introducción de Credenciales:</li>
+                <ul>
+                    <li>El usuario escribe su nombre de usuario en el campo Username.</li>
+                    <li>Luego, introduce su contraseña en el campo Password.</li>
+                </ul>
+
+                <li>Acción del Usuario:</li>
+                <ul>
+                    <li>Aceptar (Ok): Si el usuario hace clic en este botón, la aplicación validará las credenciales.</li>
+                    <ul>
+                        <li>Si las credenciales son correctas: El sistema procederá a la siguiente etapa.</li>
+                        <li>Si son incorrectas: Aparecerá un mensaje de error solicitando verificar los datos.</li>
+                    </ul>
+                    <li>Cancelar (Cancel): Si el usuario hace clic aquí, la aplicación se cerrará.</li>
+                </ul>
+            </ol>
         </div>
 
         <!-- Botones -->
