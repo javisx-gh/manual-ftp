@@ -38,13 +38,13 @@ function cambiarIdioma(lang) {
 }
 
 // Cambiar idioma al seleccionar una opción
-selectorIdioma.addEventListener("cambiar", (e) => {
-    const selectedLanguage = e.target.value;
-    cambiarIdioma(selectedLanguage);
-    localStorage.setItem("selectedLanguage", selectedLanguage); // Guardar idioma seleccionado
+selectorIdioma.addEventListener("change", (e) => {
+    const elegirIdioma = e.target.value;
+    cambiarIdioma(elegirIdioma);
+    localStorage.setItem("selectedLanguage", elegirIdioma); // Guardar idioma seleccionado
 });
 
 // Establecer idioma inicial desde localStorage o por defecto
-const savedLanguage = localStorage.getItem("selectedLanguage") || "es";
-selectorIdioma.value = savedLanguage;
-cambiarIdioma(savedLanguage);
+const guardarIdioma = localStorage.getItem("selectedLanguage") || "es";
+selectorIdioma.value = guardarIdioma;
+cambiarIdioma(guardarIdioma);
