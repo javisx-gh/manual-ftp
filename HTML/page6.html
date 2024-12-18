@@ -9,7 +9,7 @@
     <title>DSC Multi</title>
 </head>
 
-<body class="page">
+<body class="page" data-page="page6">
     <!-- Cabecera para ocultar contenido -->
     <header></header>
     <!-- Navbar -->
@@ -21,19 +21,19 @@
 
         <!-- Menú -->
         <ul class="menu">
-            <li><a href="page7.html">Ventana Registro</a></li>
+            <li><a href="page7.html" id="link-ventana-registro"></a></li>
             <li><a href="page1.html">Login</a></li>
-            <li><a href="page2.html">Menú selección</a></li>
+            <li><a href="page2.html" id="link-menu-seleccion"></a></li>
         </ul>
 
         <!-- Menú desplegable -->
         <li class="dropdown">
-            <a href="#"><img src="../Imagenes/caret-down-fill.svg" alt=""> Más</a>
+            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""></a>
             <ul class="submenu">
-                <li><a href="page3.html">Ventana FTP</a></li>
-                <li><a href="page4.html">Ventana Email</a></li>
-                <li><a href="page5.html">Ventana Configuración</a></li>
-                <li><a href="page6.html">Ventana Información</a></li>
+                <li><a href="page3.html" id="link-ventana-ftp"></a></li>
+                <li><a href="page4.html" id="link-ventana-email"></a></li>
+                <li><a href="page5.html" id="link-ventana-configuracion"></a></li>
+                <li><a href="page6.html" id="link-ventana-informacion"></a></li>
             </ul>
         </li>
     </nav>
@@ -92,6 +92,10 @@
                 </ul>
             </ol>
 
+            <div class="linea">
+                <div></div>
+            </div>
+
             <h3>Uso de la Ventana</h3>
             <ul>
                 <li>Esta ventana es <b>informativa</b> y no interactiva.</li>
@@ -101,6 +105,10 @@
                     menú principal de la aplicación.</li>
             </ul>
 
+            <div class="linea">
+                <div></div>
+            </div>
+
             <h3>Resumen</h3>
             <p>La ventana proporciona transparencia sobre los créditos del programa y deja constancia de los derechos de
                 autor bajo la versión DataConnect Solutions v1.0.</p>
@@ -108,8 +116,8 @@
 
         <!-- Botones -->
         <div class="botones">
-            <input type="button" value="Anterior" onclick="abrirPagina('page5.html')">
-            <input type="button" value="Salir" onclick="abrirPagina('../index.html')">
+            <input type="button" id="boton-anterior" onclick="abrirPagina('page5.html')">
+            <input type="button" id="boton-salir" onclick="abrirPagina('../index.html')">
         </div>
     </main>
 
@@ -121,12 +129,12 @@
         </select>
     </section>
 
-    <p class="paginacion">Página 7</p>
+    <p id="paginacion" class="paginacion"></p>
 
     <!-- Footer -->
     <footer>
-        <p>Diseñado y desarrollado por DSC Multi</a></p>
-        <p>Todos los derechos reservados &copy; 2024</p>
+        <p id="footer-autor"></p>
+        <p id="footer-derechos"></p>
     </footer>
 
     <!-- Scripts -->

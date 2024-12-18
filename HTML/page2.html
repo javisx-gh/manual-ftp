@@ -41,80 +41,62 @@
     <!-- Contenido -->
     <main class="content-manual">
         <div class="parrafo">
-            <h2>Menú selección</h2>
-            <h3>¿Qué es el menú de selección?</h3>
-            <p>Esta ventana permite al usuario elegir la acción que desea realizar en el programa. <br> Contiene cuatro
-                opciones representadas por iconos, cada una con una función específica: <br> FTP, correo electrónico,
-                configuración y consulta de información de la empresa.
-            </p>
+            <h2 id="titulo-pagina"></h2>
+            <h3 id="titulo-descripcion"></h3>
+            <p id="parrafo-descripcion"></p>
+
+            <img src="../Imagenes/menu-seleccion.png" alt="">
 
             <div class="linea">
                 <div></div>
             </div>
 
-            <h3>Secciones</h3>
+            <h3 id="titulo-componentes"></h3>
             <ol>
-                <li>Opción: FTP</li>
+                <li id="opcion-ftp"></li>
                 <ul>
-                    <li> <strong>Ubicación:</strong> Parte superior izquierda.</li>
-                    <li> <strong>Descripcion:</strong> Representado por un icono con un reptil y una carpeta.</li>
-                    <li> <strong>Función:</strong> Permite al usuario acceder al sistema FTP para gestionar archivos
-                        mediante transferencia de datos.</li>
+                    <li id="ubicacion-ftp"></li>
+                    <li id="descripcion-ftp"></li>
+                    <li id="funcion-ftp"></li>
                 </ul>
 
-                <img src="../Imagenes/menu-seleccion.png" alt="">
-
-                <li>Opción: Correo Electronico</li>
+                <li id="opcion-correo"></li>
                 <ul>
-                    <li> <strong>Ubicación:</strong> Parte superior derecha.</li>
-                    <li> <strong>Descripcion:</strong> Representado por un icono de una arroba (@).</li>
-                    <li> <strong>Función:</strong> Permite al usuario acceder al sistema de correos para enviar y
-                        recibir mensajes electrónicos.</li>
+                    <li id="ubicacion-correo"></li>
+                    <li id="descripcion-correo"></li>
+                    <li id="funcion-correo"></li>
                 </ul>
 
-                <div class="linea">
-                    <div></div>
-                </div>
-
-                <li>Opción: Configuracion</li>
+                <li id="opcion-configuracion"></li>
                 <ul>
-                    <li> <strong>Ubicación:</strong> Parte inferior izquierda.</li>
-                    <li> <strong>Descripcion:</strong> Representado por un engranaje con una figura de usuario en el
-                        centro.</li>
-                    <li> <strong>Función:</strong> Permite al usuario gestionar la configuración del programa, como
-                        ajustes de sistema y personalización.</li>
+                    <li id="ubicacion-configuracion"></li>
+                    <li id="descripcion-configuracion"></li>
+                    <li id="funcion-configuracion"></li>
                 </ul>
 
-                <div class="linea">
-                    <div></div>
-                </div>
-
-                <li>Opción: Informacion</li>
+                <li id="opcion-informacion"></li>
                 <ul>
-                    <li> <strong>Ubicación:</strong> Parte inferior derecha.</li>
-                    <li> <strong>Descripcion:</strong> Representado por un icono de una letra "i" (información).</li>
-                    <li> <strong>Función:</strong> Proporciona información sobre la empresa, como datos de contacto,
-                        detalles del software o manuales.</li>
+                    <li id="ubicacion-informacion"></li>
+                    <li id="descripcion-informacion"></li>
+                    <li id="funcion-informacion"></li>
                 </ul>
-
-                <div class="linea">
-                    <div></div>
-                </div>
             </ol>
 
-            <h3>Navegación</h3>
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3 id="titulo-navegacion"></h3>
             <ul>
-                <li>El usuario puede seleccionar cualquiera de las opciones haciendo clic en el icono correspondiente.
-                </li>
-                <br>
-                <li>Una vez seleccionada una opción, el programa redirigirá a la funcionalidad elegida.</li>
+                <li id="navegacion-seleccion"></li>
+                <li id="navegacion-redireccion"></li>
             </ul>
         </div>
 
         <!-- Botones -->
         <div class="botones">
-            <input type="button" value="Anterior" onclick="abrirPagina('page1.html')">
-            <input type="button" value="Siguiente" onclick="abrirPagina('page3.html')">
+            <input type="button" id="boton-anterior" onclick="abrirPagina('page1.html')">
+            <input type="button" id="boton-siguiente" onclick="abrirPagina('page3.html')">
         </div>
     </main>
 
@@ -126,12 +108,12 @@
         </select>
     </section>
 
-    <p class="paginacion">Página 3</p>
+    <p id="paginacion" class="paginacion"></p>
 
     <!-- Footer -->
     <footer>
-        <p>Diseñado y desarrollado por DSC Multi</a></p>
-        <p>Todos los derechos reservados &copy; 2024</p>
+        <p id="footer-autor"></p>
+        <p id="footer-derechos"></p>
     </footer>
 
     <!-- Scripts -->
