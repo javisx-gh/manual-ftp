@@ -41,11 +41,57 @@
     <!-- Contenido -->
     <main class="content-manual">
         <div class="parrafo">
-            <h2>Ventana Registro</h2>
-            <h3></h3>
-            <p></p>
+            <h2>Ventana de Registro de Usuario</h2>
+            <h3>Descripción General</h3>
+            <p>Esta ventana permite a los nuevos usuarios registrarse en la aplicación introduciendo sus datos personales. Una vez completada la información, los datos se guardan en la base de datos del sistema.</p>
 
             <img src="../Imagenes/ventana-registro.png" alt="">
+            
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3>Componentes de la Ventana</h3>
+            <ol>
+                <li>Título Principal</li>
+                <ul>
+                    <li><b>Texto:</b> Sing up!</li>
+                    <li><b>Función:</b> Indica al usuario que debe completar el registro para crear una cuenta.</li>
+                </ul>
+                <li>Campos de Entrada</li>
+                <p>Los usuarios deben rellenar los siguientes campos con su información personal:</p>
+                <ul>
+                    <li><b>Mail:</b> Dirección de correo electrónico del usuario.</li>
+                    <li><b>Name:</b> Nombre del usuario.</li>
+                    <li><b>Last Names:</b> Apellidos del usuario.</li>
+                    <li><b>DNI:</b> Número de Identificación del usuario.</li>
+                    <li><b>Nickname:</b> Alias o nombre de usuario que se utilizará en la aplicación.</li>
+                    <li><b>Password:</b> Contraseña de acceso a la cuenta.</li>
+                </ul>
+                <li>Botones Funcionales</li>
+                <ul>
+                    <li><b>Ok:</b> Guarda la información introducida en la base de datos y finaliza el proceso de registro.</li>
+                    <li><b>Cancel:</b> Cancela el proceso de registro y cierra la ventana, sin guardar datos.</li>
+                </ul>
+            </ol>
+
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3>Funcionamiento</h3>
+            <ol>
+                <li>El usuario debe rellenar todos los campos de información.</li>
+                <li>Al hacer clic en "Ok", el sistema valida los datos y los almacena en la base de datos.</li>
+                <li>Si el usuario selecciona "Cancel", se descarta cualquier información introducida y se cierra la ventana.</li>
+            </ol>
+
+            <div class="linea">
+                <div></div>
+            </div>
+
+            <h3>Resumen</h3>
+            <p>La ventana de Registro de Usuario permite a los nuevos usuarios ingresar su información básica y crear una cuenta en la aplicación. Esta funcionalidad es crucial para el acceso y gestión de perfiles dentro del sistema.</p>
         </div>
 
         <!-- Botones -->
@@ -54,6 +100,14 @@
             <input type="button" value="Siguiente" onclick="abrirPagina('page1.html')">
         </div>
     </main>
+
+    <!-- Selector de idioma -->
+    <section class="selector-idioma">
+        <select id="language">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+        </select>
+    </section>
 
     <p class="paginacion">Página 1</p>
 
