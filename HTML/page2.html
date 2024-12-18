@@ -9,7 +9,7 @@
     <title>DSC Multi</title>
 </head>
 
-<body class="page">
+<body class="page" data-page="page2">
     <!-- Cabecera para ocultar contenido -->
     <header></header>
     <!-- Navbar -->
@@ -21,18 +21,19 @@
 
         <!-- Menú -->
         <ul class="menu">
+            <li><a href="page7.html" id="link-ventana-registro"></a></li>
             <li><a href="page1.html">Login</a></li>
-            <li><a href="page2.html">Menú selección</a></li>
-            <li><a href="page3.html">Ventana FTP</a></li>
+            <li><a href="page2.html" id="link-menu-seleccion"></a></li>
         </ul>
 
         <!-- Menú desplegable -->
         <li class="dropdown">
-            <a href="#"><img src="../Imagenes/caret-down-fill.svg" alt=""> Más</a>
+            <a href="#" id="link-menu-mas"><img src="../Imagenes/caret-down-fill.svg" alt=""></a>
             <ul class="submenu">
-                <li><a href="page4.html">Ventana Email</a></li>
-                <li><a href="page5.html">Ventana Configuración</a></li>
-                <li><a href="page6.html">Ventana Información</a></li>
+                <li><a href="page3.html" id="link-ventana-ftp"></a></li>
+                <li><a href="page4.html" id="link-ventana-email"></a></li>
+                <li><a href="page5.html" id="link-ventana-configuracion"></a></li>
+                <li><a href="page6.html" id="link-ventana-informacion"></a></li>
             </ul>
         </li>
     </nav>
@@ -117,7 +118,7 @@
         </div>
     </main>
 
-    <p class="paginacion">Página 2</p>
+    <p class="paginacion">Página 3</p>
 
     <!-- Footer -->
     <footer>

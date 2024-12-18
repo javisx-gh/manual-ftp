@@ -1,0 +1,34 @@
+{
+    "index": {
+        "es": {
+            "titulo": "Manual de gestión de archivos por FTP",
+            "tituloManual": "MANUAL",
+            "explicacionManual": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno.",
+            "botonEmpezar": "Empezar"
+        },
+        "en": {
+            "titulo": "File Management Manual via FTP",
+            "tituloManual": "MANUAL",
+            "explicacionManual": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+            "botonEmpezar": "Start"
+        }
+    },
+    "page1": {
+        "es": {
+            "tituloPagina": "Login",
+            "descripcionGeneral": "Descripción General",
+            "parrafoDescripcion": "La ventana de inicio de sesión permite al usuario acceder a una aplicación proporcionando sus credenciales. Consta de campos para introducir un nombre de usuario y una contraseña, así como botones para confirmar o cancelar la acción.",
+            "botonAnterior": "Anterior",
+            "botonSiguiente": "Siguiente",
+            "paginacion": "Página 1"
+        },
+        "en": {
+            "tituloPagina": "Login",
+            "descripcionGeneral": "General Description",
+            "parrafoDescripcion": "The login window allows the user to access an application by providing their credentials. It consists of fields to enter a username and a password, as well as buttons to confirm or cancel the action.",
+            "botonAnterior": "Previous",
+            "botonSiguiente": "Next",
+            "paginacion": "Page 1"
+        }
+    }
+}
