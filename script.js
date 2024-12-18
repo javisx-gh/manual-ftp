@@ -73,7 +73,7 @@ const traducciones = {
             botonAnterior: "Anterior",
             botonSiguiente: "Siguiente",
             paginacion: "Página 2",
-            footerAutor: "Diseñado y desarrollado por DSC Multi S.L.",
+            footerAutor: "Diseñado y desarrollado por DSC Multi S.A.",
             footerDerechos: "Todos los derechos reservados © 2024"
         },
         en: {
@@ -125,7 +125,7 @@ const traducciones = {
             botonAnterior: "Previous",
             botonSiguiente: "Next",
             paginacion: "Page 2",
-            footerAutor: "Designed and developed by DSC Multi S.L.",
+            footerAutor: "Designed and developed by DSC Multi S.A.",
             footerDerechos: "All rights reserved © 2024"
         },
     },
@@ -169,7 +169,7 @@ const traducciones = {
             botonAnterior: "Anterior",
             botonSiguiente: "Siguiente",
             paginacion: "Página 3",
-            footerAutor: "Diseñado y desarrollado por DSC Multi S.L.",
+            footerAutor: "Diseñado y desarrollado por DSC Multi S.A.",
             footerDerechos: "Todos los derechos reservados © 2024"
         },
         en: {
@@ -211,7 +211,7 @@ const traducciones = {
             botonAnterior: "Previous",
             botonSiguiente: "Next",
             paginacion: "Page 3",
-            footerAutor: "Designed and developed by DSC Multi S.L.",
+            footerAutor: "Designed and developed by DSC Multi S.A.",
             footerDerechos: "All rights reserved © 2024"
         },
     },
@@ -279,7 +279,7 @@ const traducciones = {
             botonAnterior: "Anterior",
             botonSiguiente: "Siguiente",
             paginacion: "Página 4",
-            footerAutor: "Diseñado y desarrollado por DSC Multi S.L.",
+            footerAutor: "Diseñado y desarrollado por DSC Multi S.A.",
             footerDerechos: "Todos los derechos reservados © 2024"
         },
         en: {
@@ -345,7 +345,7 @@ const traducciones = {
             botonAnterior: "Previous",
             botonSiguiente: "Next",
             paginacion: "Page 4",
-            footerAutor: "Designed and developed by DSC Multi S.L.",
+            footerAutor: "Designed and developed by DSC Multi S.A.",
             footerDerechos: "All rights reserved © 2024"
         }
     },
@@ -401,7 +401,7 @@ const traducciones = {
             botonAnterior: "Anterior",
             botonSiguiente: "Siguiente",
             paginacion: "Página 5",
-            footerAutor: "Diseñado y desarrollado por DSC Multi S.L.",
+            footerAutor: "Diseñado y desarrollado por DSC Multi S.A.",
             footerDerechos: "Todos los derechos reservados © 2024"
         },
         en: {
@@ -455,7 +455,7 @@ const traducciones = {
             botonAnterior: "Previous",
             botonSiguiente: "Next",
             paginacion: "Page 5",
-            footerAutor: "Designed and developed by DSC Multi S.L.",
+            footerAutor: "Designed and developed by DSC Multi S.A.",
             footerDerechos: "All rights reserved © 2024"
         }
     },
@@ -471,12 +471,53 @@ const traducciones = {
             linkVentanaInformacion: "Ventana Información",
 
             //Contenido
+            configuracionUsuariosTitulo: "Configuración de Usuarios",
+            ventanaConfiguracionUsuario: "1. Ventana de Configuración de Usuario",
+            descripcionGeneralUsuario: "Descripción General",
+            descripcionUsuario: "Esta ventana permite a los usuarios configurar su propia información personal y realizar modificaciones básicas en su perfil.",
+            componentesVentanaUsuario: "Componentes de la Ventana",
+            camposInformacionUsuario: "Campos de Información del Usuario:",
+            camposInformacionDescripcion: "Los usuarios pueden introducir o editar sus datos personales en los siguientes campos:",
+            campoNickname: "Nickname: Nombre de usuario o alias.",
+            campoName: "Name: Nombre real del usuario.",
+            campoLastName: "Last Name: Apellido del usuario.",
+            campoEmail: "Email: Dirección de correo electrónico.",
+            campoPassword: "Password: Contraseña de acceso al sistema.",
+            campoDni: "DNI: Número de identificación del usuario.",
+            campoRolDescription: "Rol Description: Breve descripción del rol asignado al usuario.",
+            botonesFuncionalesUsuario: "Botones Funcionales:",
+            botonEliminate: "Eliminate: Permite eliminar los datos del usuario actual.",
+            botonModify: "Modify: Guarda los cambios realizados en los campos de información.",
+            botonExit: "Exit: Cierra la ventana actual y regresa al menú anterior.",
+            ventanaGestionUsuarios: "2. Ventana de Gestión de Usuarios (Admin)",
+            descripcionGeneralAdmin: "Descripción General",
+            descripcionAdmin: "Esta ventana está destinada al administrador del sistema. Permite gestionar la información de los usuarios registrados dentro de la empresa, realizar búsquedas y modificaciones, así como crear o eliminar perfiles.",
+            componentesVentanaAdmin: "Componentes de la Ventana",
+            tablaUsuarios: "Tabla de Usuarios:",
+            tablaUsuariosDescripcion: "Muestra la lista de usuarios con sus respectivas columnas:",
+            columnaNombre: "Nombre: Nombre del usuario.",
+            columnaCorreo: "Correo: Dirección de correo electrónico.",
+            columnaPermiso: "Permiso: Nivel de permisos asignado al usuario (roles o privilegios).",
+            columnaRol: "Rol: Rol específico del usuario dentro de la organización.",
+            tablaBarraDesplazamiento: "La tabla incluye una barra de desplazamiento para navegar por todos los registros disponibles.",
+            barraBusqueda: "Barra de Búsqueda:",
+            campoBusqueda: "Campo de búsqueda: Permite escribir el nombre, correo u otra información para localizar un usuario específico.",
+            botonBuscar: "Botón 'Buscar': Filtra los resultados en la tabla basándose en los criterios introducidos.",
+            botonesFuncionalesAdmin: "Botones Funcionales:",
+            botonCrear: "Crear: Permite añadir un nuevo usuario al sistema.",
+            botonModificar: "Modificar: Edita la información de un usuario seleccionado en la tabla.",
+            botonBorrar: "Borrar: Elimina el usuario seleccionado de la lista.",
+            botonVolver: "Volver: Regresa al menú principal o ventana anterior.",
+            resumenUsuarios: "Resumen",
+            resumenPrimeraVentana: "Primera Ventana: Los usuarios pueden actualizar su propia información personal de manera autónoma.",
+            resumenSegundaVentana: "Segunda Ventana: El administrador tiene control total sobre los usuarios registrados, con opciones para crear, modificar, buscar y eliminar perfiles.",
+            resumenFinal: "Estas funcionalidades aseguran una gestión eficiente de los datos personales y del sistema por parte de usuarios y administradores.",
 
             //Footer
             botonAnterior: "Anterior",
             botonSiguiente: "Siguiente",
             paginacion: "Página 6",
-            footerAutor: "Diseñado y desarrollado por DSC Multi S.L.",
+            footerAutor: "Diseñado y desarrollado por DSC Multi S.A.",
             footerDerechos: "Todos los derechos reservados © 2024"
         },
         en: {
@@ -490,12 +531,53 @@ const traducciones = {
             linkVentanaInformacion: "Information Window",
 
             //Contenido
+            configuracionUsuariosTitulo: "User Configuration",
+            ventanaConfiguracionUsuario: "1. User Configuration Window",
+            descripcionGeneralUsuario: "General Description",
+            descripcionUsuario: "This window allows users to configure their personal information and make basic modifications to their profile.",
+            componentesVentanaUsuario: "Window Components",
+            camposInformacionUsuario: "User Information Fields:",
+            camposInformacionDescripcion: "Users can enter or edit their personal details in the following fields:",
+            campoNickname: "Nickname: Username or alias.",
+            campoName: "Name: User's real name.",
+            campoLastName: "Last Name: User's last name.",
+            campoEmail: "Email: Email address.",
+            campoPassword: "Password: System access password.",
+            campoDni: "DNI: User identification number.",
+            campoRolDescription: "Role Description: A brief description of the user's assigned role.",
+            botonesFuncionalesUsuario: "Functional Buttons:",
+            botonEliminate: "Eliminate: Deletes the current user's data.",
+            botonModify: "Modify: Saves changes made to the information fields.",
+            botonExit: "Exit: Closes the current window and returns to the previous menu.",
+            ventanaGestionUsuarios: "2. User Management Window (Admin)",
+            descripcionGeneralAdmin: "General Description",
+            descripcionAdmin: "This window is intended for the system administrator. It allows managing the information of registered users within the company, performing searches and modifications, as well as creating or deleting profiles.",
+            componentesVentanaAdmin: "Window Components",
+            tablaUsuarios: "User Table:",
+            tablaUsuariosDescripcion: "Displays the list of users with their respective columns:",
+            columnaNombre: "Name: User's name.",
+            columnaCorreo: "Email: Email address.",
+            columnaPermiso: "Permission: Permission level assigned to the user (roles or privileges).",
+            columnaRol: "Role: Specific role of the user within the organization.",
+            tablaBarraDesplazamiento: "The table includes a scroll bar to navigate through all available records.",
+            barraBusqueda: "Search Bar:",
+            campoBusqueda: "Search Field: Allows typing the name, email, or other information to locate a specific user.",
+            botonBuscar: "'Search' Button: Filters the table results based on the entered criteria.",
+            botonesFuncionalesAdmin: "Functional Buttons:",
+            botonCrear: "Create: Allows adding a new user to the system.",
+            botonModificar: "Modify: Edits the information of a selected user in the table.",
+            botonBorrar: "Delete: Removes the selected user from the list.",
+            botonVolver: "Back: Returns to the main menu or previous window.",
+            resumenUsuarios: "Summary",
+            resumenPrimeraVentana: "First Window: Users can autonomously update their personal information.",
+            resumenSegundaVentana: "Second Window: The administrator has full control over registered users, with options to create, modify, search, and delete profiles.",
+            resumenFinal: "These features ensure efficient management of personal and system data by both users and administrators.",
 
             //Footer
             botonAnterior: "Previous",
             botonSiguiente: "Next",
             paginacion: "Page 6",
-            footerAutor: "Designed and developed by DSC Multi S.L.",
+            footerAutor: "Designed and developed by DSC Multi S.A.",
             footerDerechos: "All rights reserved © 2024"
         }
     },
@@ -511,12 +593,41 @@ const traducciones = {
             linkVentanaInformacion: "Ventana Información",
 
             //Contenido
+            ventanainformaciontitulo: "Ventana de Información 'Acerca de'",
+            descripciongeneralacercade: "Descripción General",
+            descripcionacercade: "Esta ventana proporciona información sobre la versión del software, los desarrolladores responsables de su creación y el aviso legal de derechos de autor.",
+            componentesventanaacercade: "Componentes de la Ventana",
+            tituloprograma: "Título del Programa",
+            textoprograma: "Texto: DataConnect Solutions v1.0.",
+            funcionprograma: "Función: Muestra el nombre y la versión actual del software.",
+            secciondesarrolladores: "Sección de Desarrolladores",
+            descripciondesarrolladores: "Enumera los nombres de las personas responsables del desarrollo del programa.",
+            listadesarrolladorestitulo: "Lista de Desarrolladores:",
+            desarrollador1: "Iván Guerrero Romero",
+            desarrollador2: "Isaac Requena Santiago",
+            desarrollador3: "Álvaro García López",
+            desarrollador4: "Ramón Reina González",
+            desarrollador5: "José Manuel Campos López",
+            avisoderechosautor: "Aviso de Derechos de Autor",
+            textoderechosautor: "Texto:",
+            copyrightderechosautor: "© 2024 DataConnect Solutions S.A.",
+            derechosreservadosautor: "Todos los derechos reservados.",
+            funcionderechosautor: "Función: Informa al usuario sobre el copyright y la protección legal del software.",
+            simbolocopyright: "Símbolo de Copyright",
+            imagencopyright: "Imagen con el símbolo de 'All Rights Reserved' (Todos los derechos reservados).",
+            propositocopyright: "Propósito: Refuerza la declaración legal de protección de los derechos del software.",
+            usoventanaacercade: "Uso de la Ventana",
+            usoinformativa: "Esta ventana es informativa y no interactiva.",
+            usodesarrolladores: "Permite a los usuarios conocer quiénes desarrollaron la aplicación, así como los derechos legales asociados al software.",
+            usoacceso: "Es común acceder a esta ventana desde una opción como 'Acerca de' o 'Información del Sistema' en el menú principal de la aplicación.",
+            resumenacercade: "Resumen",
+            resumenfinalacercade: "La ventana proporciona transparencia sobre los créditos del programa y deja constancia de los derechos de autor bajo la versión DataConnect Solutions v1.0.",
 
             //Footer
             botonAnterior: "Anterior",
             botonSalir: "Salir",
             paginacion: "Página 7",
-            footerAutor: "Diseñado y desarrollado por DSC Multi S.L.",
+            footerAutor: "Diseñado y desarrollado por DSC Multi S.A.",
             footerDerechos: "Todos los derechos reservados © 2024"
         },
         en: {
@@ -530,12 +641,41 @@ const traducciones = {
             linkVentanaInformacion: "Information Window",
 
             //Contenido
+            ventanainformaciontitulo: "About Information Window",
+            descripciongeneralacercade: "General Description",
+            descripcionacercade: "This window provides information about the software version, the developers responsible for its creation, and the legal copyright notice.",
+            componentesventanaacercade: "Window Components",
+            tituloprograma: "Program Title",
+            textoprograma: "Text: DataConnect Solutions v1.0.",
+            funcionprograma: "Function: Displays the name and current version of the software.",
+            secciondesarrolladores: "Developers Section",
+            descripciondesarrolladores: "Lists the names of the individuals responsible for the program's development.",
+            listadesarrolladorestitulo: "Developers List:",
+            desarrollador1: "Iván Guerrero Romero",
+            desarrollador2: "Isaac Requena Santiago",
+            desarrollador3: "Álvaro García López",
+            desarrollador4: "Ramón Reina González",
+            desarrollador5: "José Manuel Campos López",
+            avisoderechosautor: "Copyright Notice",
+            textoderechosautor: "Text:",
+            copyrightderechosautor: "© 2024 DataConnect Solutions S.A.",
+            derechosreservadosautor: "All rights reserved.",
+            funcionderechosautor: "Function: Informs the user about the copyright and legal protection of the software.",
+            simbolocopyright: "Copyright Symbol",
+            imagencopyright: "Image featuring the 'All Rights Reserved' symbol.",
+            propositocopyright: "Purpose: Reinforces the legal declaration of the software's rights protection.",
+            usoventanaacercade: "Window Usage",
+            usoinformativa: "This window is informational and non-interactive.",
+            usodesarrolladores: "Allows users to learn about the application developers and the associated legal rights of the software.",
+            usoacceso: "Commonly accessed via an option like 'About' or 'System Information' in the main application menu.",
+            resumenacercade: "Summary",
+            resumenfinalacercade: "The window provides transparency about the program's credits and documents the copyright under the DataConnect Solutions v1.0 version.",
 
             //Footer
             botonAnterior: "Previous",
             botonSalir: "Exit",
             paginacion: "Page 7",
-            footerAutor: "Designed and developed by DSC Multi S.L.",
+            footerAutor: "Designed and developed by DSC Multi S.A.",
             footerDerechos: "All rights reserved © 2024"
         }
     },
@@ -551,12 +691,36 @@ const traducciones = {
             linkVentanaInformacion: "Ventana Información",
 
             //Contenido
+            tituloventana: "Ventana de Registro de Usuario",
+            descripciongeneral: "Descripción General",
+            descripciontexto: "Esta ventana permite a los nuevos usuarios registrarse en la aplicación introduciendo sus datos personales. Una vez completada la información, los datos se guardan en la base de datos del sistema.",
+            componentesventana: "Componentes de la Ventana",
+            tituloprincipal: "Título Principal",
+            textoregistro: "Texto: Sing up!",
+            funcionregistro: "Función: Indica al usuario que debe completar el registro para crear una cuenta.",
+            camposentrada: "Campos de Entrada",
+            descripcioncampos: "Los usuarios deben rellenar los siguientes campos con su información personal:",
+            campomail: "Mail: Dirección de correo electrónico del usuario.",
+            camponombre: "Name: Nombre del usuario.",
+            campoapellidos: "Last Names: Apellidos del usuario.",
+            campodni: "DNI: Número de Identificación del usuario.",
+            campoalias: "Nickname: Alias o nombre de usuario que se utilizará en la aplicación.",
+            campocontraseña: "Password: Contraseña de acceso a la cuenta.",
+            botonesfuncionales: "Botones Funcionales",
+            botonok: "Ok: Guarda la información introducida en la base de datos y finaliza el proceso de registro.",
+            botoncancel: "Cancel: Cancela el proceso de registro y cierra la ventana, sin guardar datos.",
+            funcionamiento: "Funcionamiento",
+            rellenarcampos: "El usuario debe rellenar todos los campos de información.",
+            clicok: "Al hacer clic en 'Ok', el sistema valida los datos y los almacena en la base de datos.",
+            cliccancel: "Si el usuario selecciona 'Cancel', se descarta cualquier información introducida y se cierra la ventana.",
+            resumen: "Resumen",
+            descripcionresumen: "La ventana de Registro de Usuario permite a los nuevos usuarios ingresar su información básica y crear una cuenta en la aplicación. Esta funcionalidad es crucial para el acceso y gestión de perfiles dentro del sistema.",
 
             //Footer
             botonAnterior: "Anterior",
             botonSiguiente: "Siguiente",
             paginacion: "Página 1",
-            footerAutor: "Diseñado y desarrollado por DSC Multi S.L.",
+            footerAutor: "Diseñado y desarrollado por DSC Multi S.A.",
             footerDerechos: "Todos los derechos reservados © 2024"
         },
         en: {
@@ -570,12 +734,36 @@ const traducciones = {
             linkVentanaInformacion: "Information Window",
 
             //Contenido
+            tituloventana: "User Registration Window",
+            descripciongeneral: "General Description",
+            descripciontexto: "This window allows new users to register in the application by entering their personal information. Once the information is completed, the data is saved in the system's database.",
+            componentesventana: "Window Components",
+            tituloprincipal: "Main Title",
+            textoregistro: "Text: Sign up!",
+            funcionregistro: "Function: Informs the user that they need to complete the registration to create an account.",
+            camposentrada: "Input Fields",
+            descripcioncampos: "Users must fill in the following fields with their personal information:",
+            campomail: "Mail: User's email address.",
+            camponombre: "Name: User's first name.",
+            campoapellidos: "Last Names: User's last name.",
+            campodni: "DNI: User's Identification Number.",
+            campoalias: "Nickname: Alias or username that will be used in the application.",
+            campocontraseña: "Password: Account access password.",
+            botonesfuncionales: "Functional Buttons",
+            botonok: "Ok: Saves the entered information in the database and completes the registration process.",
+            botoncancel: "Cancel: Cancels the registration process and closes the window without saving data.",
+            funcionamiento: "How it Works",
+            rellenarcampos: "The user must fill in all the information fields.",
+            clicok: "When clicking 'Ok', the system validates the data and stores it in the database.",
+            cliccancel: "If the user selects 'Cancel', any entered information is discarded, and the window closes.",
+            resumen: "Summary",
+            descripcionresumen: "The User Registration window allows new users to enter their basic information and create an account in the application. This functionality is crucial for access and profile management within the system.",
 
             //Footer
             botonAnterior: "Previous",
             botonSiguiente: "Next",
             paginacion: "Page 1",
-            footerAutor: "Designed and developed by DSC Multi S.L.",
+            footerAutor: "Designed and developed by DSC Multi S.A.",
             footerDerechos: "All rights reserved © 2024"
         }
     }
@@ -1217,6 +1405,128 @@ function traducirPagina(lang, pagina) {
         if (linkVentanaInformacion) linkVentanaInformacion.textContent = traducir.linkVentanaInformacion;
 
         //Contenido
+        const configuracionUsuariosTitulo = document.getElementById("configuracion-usuarios-titulo");
+        if (configuracionUsuariosTitulo) configuracionUsuariosTitulo.textContent = traducir.configuracionUsuariosTitulo;
+
+        const ventanaConfiguracionUsuario = document.getElementById("ventana-configuracion-usuario");
+        if (ventanaConfiguracionUsuario) ventanaConfiguracionUsuario.textContent = traducir.ventanaConfiguracionUsuario;
+
+        const descripcionGeneralUsuario = document.getElementById("descripcion-general-usuario");
+        if (descripcionGeneralUsuario) descripcionGeneralUsuario.textContent = traducir.descripcionGeneralUsuario;
+
+        const descripcionUsuario = document.getElementById("descripcion-usuario");
+        if (descripcionUsuario) descripcionUsuario.textContent = traducir.descripcionUsuario;
+
+        const componentesVentanaUsuario = document.getElementById("componentes-ventana-usuario");
+        if (componentesVentanaUsuario) componentesVentanaUsuario.textContent = traducir.componentesVentanaUsuario;
+
+        const camposInformacionUsuario = document.getElementById("campos-informacion-usuario");
+        if (camposInformacionUsuario) camposInformacionUsuario.textContent = traducir.camposInformacionUsuario;
+
+        const camposInformacionDescripcion = document.getElementById("campos-informacion-descripcion");
+        if (camposInformacionDescripcion) camposInformacionDescripcion.textContent = traducir.camposInformacionDescripcion;
+
+        const campoNickname = document.getElementById("campo-nickname");
+        if (campoNickname) campoNickname.textContent = traducir.campoNickname;
+
+        const campoName = document.getElementById("campo-name");
+        if (campoName) campoName.textContent = traducir.campoName;
+
+        const campoLastName = document.getElementById("campo-last-name");
+        if (campoLastName) campoLastName.textContent = traducir.campoLastName;
+
+        const campoEmail = document.getElementById("campo-email");
+        if (campoEmail) campoEmail.textContent = traducir.campoEmail;
+
+        const campoPassword = document.getElementById("campo-password");
+        if (campoPassword) campoPassword.textContent = traducir.campoPassword;
+
+        const campoDni = document.getElementById("campo-dni");
+        if (campoDni) campoDni.textContent = traducir.campoDni;
+
+        const campoRolDescription = document.getElementById("campo-rol-description");
+        if (campoRolDescription) campoRolDescription.textContent = traducir.campoRolDescription;
+
+        const botonesFuncionalesUsuario = document.getElementById("botones-funcionales-usuario");
+        if (botonesFuncionalesUsuario) botonesFuncionalesUsuario.textContent = traducir.botonesFuncionalesUsuario;
+
+        const botonEliminate = document.getElementById("boton-eliminate");
+        if (botonEliminate) botonEliminate.textContent = traducir.botonEliminate;
+
+        const botonModify = document.getElementById("boton-modify");
+        if (botonModify) botonModify.textContent = traducir.botonModify;
+
+        const botonExit = document.getElementById("boton-exit");
+        if (botonExit) botonExit.textContent = traducir.botonExit;
+
+        const ventanaGestionUsuarios = document.getElementById("ventana-gestion-usuarios");
+        if (ventanaGestionUsuarios) ventanaGestionUsuarios.textContent = traducir.ventanaGestionUsuarios;
+
+        const descripcionGeneralAdmin = document.getElementById("descripcion-general-admin");
+        if (descripcionGeneralAdmin) descripcionGeneralAdmin.textContent = traducir.descripcionGeneralAdmin;
+
+        const descripcionAdmin = document.getElementById("descripcion-admin");
+        if (descripcionAdmin) descripcionAdmin.textContent = traducir.descripcionAdmin;
+
+        const componentesVentanaAdmin = document.getElementById("componentes-ventana-admin");
+        if (componentesVentanaAdmin) componentesVentanaAdmin.textContent = traducir.componentesVentanaAdmin;
+
+        const tablaUsuarios = document.getElementById("tabla-usuarios");
+        if (tablaUsuarios) tablaUsuarios.textContent = traducir.tablaUsuarios;
+
+        const tablaUsuariosDescripcion = document.getElementById("tabla-usuarios-descripcion");
+        if (tablaUsuariosDescripcion) tablaUsuariosDescripcion.textContent = traducir.tablaUsuariosDescripcion;
+
+        const columnaNombre = document.getElementById("columna-nombre");
+        if (columnaNombre) columnaNombre.textContent = traducir.columnaNombre;
+
+        const columnaCorreo = document.getElementById("columna-correo");
+        if (columnaCorreo) columnaCorreo.textContent = traducir.columnaCorreo;
+
+        const columnaPermiso = document.getElementById("columna-permiso");
+        if (columnaPermiso) columnaPermiso.textContent = traducir.columnaPermiso;
+
+        const columnaRol = document.getElementById("columna-rol");
+        if (columnaRol) columnaRol.textContent = traducir.columnaRol;
+
+        const tablaBarraDesplazamiento = document.getElementById("tabla-barra-desplazamiento");
+        if (tablaBarraDesplazamiento) tablaBarraDesplazamiento.textContent = traducir.tablaBarraDesplazamiento;
+
+        const barraBusqueda = document.getElementById("barra-busqueda");
+        if (barraBusqueda) barraBusqueda.textContent = traducir.barraBusqueda;
+
+        const campoBusqueda = document.getElementById("campo-busqueda");
+        if (campoBusqueda) campoBusqueda.textContent = traducir.campoBusqueda;
+
+        const botonBuscar = document.getElementById("boton-buscar");
+        if (botonBuscar) botonBuscar.textContent = traducir.botonBuscar;
+
+        const botonesFuncionalesAdmin = document.getElementById("botones-funcionales-admin");
+        if (botonesFuncionalesAdmin) botonesFuncionalesAdmin.textContent = traducir.botonesFuncionalesAdmin;
+
+        const botonCrear = document.getElementById("boton-crear");
+        if (botonCrear) botonCrear.textContent = traducir.botonCrear;
+
+        const botonModificar = document.getElementById("boton-modificar");
+        if (botonModificar) botonModificar.textContent = traducir.botonModificar;
+
+        const botonBorrar = document.getElementById("boton-borrar");
+        if (botonBorrar) botonBorrar.textContent = traducir.botonBorrar;
+
+        const botonVolver = document.getElementById("boton-volver");
+        if (botonVolver) botonVolver.textContent = traducir.botonVolver;
+
+        const resumenUsuarios = document.getElementById("resumen-usuarios");
+        if (resumenUsuarios) resumenUsuarios.textContent = traducir.resumenUsuarios;
+
+        const resumenPrimeraVentana = document.getElementById("resumen-primera-ventana");
+        if (resumenPrimeraVentana) resumenPrimeraVentana.textContent = traducir.resumenPrimeraVentana;
+
+        const resumenSegundaVentana = document.getElementById("resumen-segunda-ventana");
+        if (resumenSegundaVentana) resumenSegundaVentana.textContent = traducir.resumenSegundaVentana;
+
+        const resumenFinal = document.getElementById("resumen-final");
+        if (resumenFinal) resumenFinal.textContent = traducir.resumenFinal;
 
         //Footer
         const botonAnterior = document.getElementById("boton-anterior");
@@ -1262,6 +1572,92 @@ function traducirPagina(lang, pagina) {
         if (linkVentanaInformacion) linkVentanaInformacion.textContent = traducir.linkVentanaInformacion;
 
         //Contenido
+        const ventanainformaciontitulo = document.getElementById("ventana-informacion-titulo");
+        if (ventanainformaciontitulo) ventanainformaciontitulo.textContent = traducir.ventanainformaciontitulo;
+
+        const descripciongeneralacercade = document.getElementById("descripcion-general-acerca-de");
+        if (descripciongeneralacercade) descripciongeneralacercade.textContent = traducir.descripciongeneralacercade;
+
+        const descripcionacercade = document.getElementById("descripcion-acerca-de");
+        if (descripcionacercade) descripcionacercade.textContent = traducir.descripcionacercade;
+
+        const componentesventanaacercade = document.getElementById("componentes-ventana-acerca-de");
+        if (componentesventanaacercade) componentesventanaacercade.textContent = traducir.componentesventanaacercade;
+
+        const tituloprograma = document.getElementById("titulo-programa");
+        if (tituloprograma) tituloprograma.textContent = traducir.tituloprograma;
+
+        const textoprograma = document.getElementById("texto-programa");
+        if (textoprograma) textoprograma.textContent = traducir.textoprograma;
+
+        const funcionprograma = document.getElementById("funcion-programa");
+        if (funcionprograma) funcionprograma.textContent = traducir.funcionprograma;
+
+        const secciondesarrolladores = document.getElementById("seccion-desarrolladores");
+        if (secciondesarrolladores) secciondesarrolladores.textContent = traducir.secciondesarrolladores;
+
+        const descripciondesarrolladores = document.getElementById("descripcion-desarrolladores");
+        if (descripciondesarrolladores) descripciondesarrolladores.textContent = traducir.descripciondesarrolladores;
+
+        const listadesarrolladorestitulo = document.getElementById("lista-desarrolladores-titulo");
+        if (listadesarrolladorestitulo) listadesarrolladorestitulo.textContent = traducir.listadesarrolladorestitulo;
+
+        const desarrollador1 = document.getElementById("desarrollador-1");
+        if (desarrollador1) desarrollador1.textContent = traducir.desarrollador1;
+
+        const desarrollador2 = document.getElementById("desarrollador-2");
+        if (desarrollador2) desarrollador2.textContent = traducir.desarrollador2;
+
+        const desarrollador3 = document.getElementById("desarrollador-3");
+        if (desarrollador3) desarrollador3.textContent = traducir.desarrollador3;
+
+        const desarrollador4 = document.getElementById("desarrollador-4");
+        if (desarrollador4) desarrollador4.textContent = traducir.desarrollador4;
+
+        const desarrollador5 = document.getElementById("desarrollador-5");
+        if (desarrollador5) desarrollador5.textContent = traducir.desarrollador5;
+
+        const avisoderechosautor = document.getElementById("aviso-derechos-autor");
+        if (avisoderechosautor) avisoderechosautor.textContent = traducir.avisoderechosautor;
+
+        const textoderechosautor = document.getElementById("texto-derechos-autor");
+        if (textoderechosautor) textoderechosautor.textContent = traducir.textoderechosautor;
+
+        const copyrightderechosautor = document.getElementById("copyright-derechos-autor");
+        if (copyrightderechosautor) copyrightderechosautor.textContent = traducir.copyrightderechosautor;
+
+        const derechosreservadosautor = document.getElementById("derechos-reservados-autor");
+        if (derechosreservadosautor) derechosreservadosautor.textContent = traducir.derechosreservadosautor;
+
+        const funcionderechosautor = document.getElementById("funcion-derechos-autor");
+        if (funcionderechosautor) funcionderechosautor.textContent = traducir.funcionderechosautor;
+
+        const simbolocopyright = document.getElementById("simbolo-copyright");
+        if (simbolocopyright) simbolocopyright.textContent = traducir.simbolocopyright;
+
+        const imagencopyright = document.getElementById("imagen-copyright");
+        if (imagencopyright) imagencopyright.textContent = traducir.imagencopyright;
+
+        const propositocopyright = document.getElementById("proposito-copyright");
+        if (propositocopyright) propositocopyright.textContent = traducir.propositocopyright;
+
+        const usoventanaacercade = document.getElementById("uso-ventana-acerca-de");
+        if (usoventanaacercade) usoventanaacercade.textContent = traducir.usoventanaacercade;
+
+        const usoinformativa = document.getElementById("uso-informativa");
+        if (usoinformativa) usoinformativa.textContent = traducir.usoinformativa;
+
+        const usodesarrolladores = document.getElementById("uso-desarrolladores");
+        if (usodesarrolladores) usodesarrolladores.textContent = traducir.usodesarrolladores;
+
+        const usoacceso = document.getElementById("uso-acceso");
+        if (usoacceso) usoacceso.textContent = traducir.usoacceso;
+
+        const resumenacercade = document.getElementById("resumen-acerca-de");
+        if (resumenacercade) resumenacercade.textContent = traducir.resumenacercade;
+
+        const resumenfinalacercade = document.getElementById("resumen-final-acerca-de");
+        if (resumenfinalacercade) resumenfinalacercade.textContent = traducir.resumenfinalacercade;
 
         //Footer
         const botonAnterior = document.getElementById("boton-anterior");
@@ -1307,6 +1703,77 @@ function traducirPagina(lang, pagina) {
         if (linkVentanaInformacion) linkVentanaInformacion.textContent = traducir.linkVentanaInformacion;
 
         //Contenido
+        const tituloventana = document.getElementById("titulo-ventana");
+        if (tituloventana) tituloventana.textContent = traducir.tituloventana;
+
+        const descripciongeneral = document.getElementById("descripcion-general");
+        if (descripciongeneral) descripciongeneral.textContent = traducir.descripciongeneral;
+
+        const descripciontexto = document.getElementById("descripcion-texto");
+        if (descripciontexto) descripciontexto.textContent = traducir.descripciontexto;
+
+        const componentesventana = document.getElementById("componentes-ventana");
+        if (componentesventana) componentesventana.textContent = traducir.componentesventana;
+
+        const tituloprincipal = document.getElementById("titulo-principal");
+        if (tituloprincipal) tituloprincipal.textContent = traducir.tituloprincipal;
+
+        const textoregistro = document.getElementById("texto-registro");
+        if (textoregistro) textoregistro.textContent = traducir.textoregistro;
+
+        const funcionregistro = document.getElementById("funcion-registro");
+        if (funcionregistro) funcionregistro.textContent = traducir.funcionregistro;
+
+        const camposentrada = document.getElementById("campos-entrada");
+        if (camposentrada) camposentrada.textContent = traducir.camposentrada;
+
+        const descripcioncampos = document.getElementById("descripcion-campos");
+        if (descripcioncampos) descripcioncampos.textContent = traducir.descripcioncampos;
+
+        const campomail = document.getElementById("campo-mail");
+        if (campomail) campomail.textContent = traducir.campomail;
+
+        const camponombre = document.getElementById("campo-nombre");
+        if (camponombre) camponombre.textContent = traducir.camponombre;
+
+        const campoapellidos = document.getElementById("campo-apellidos");
+        if (campoapellidos) campoapellidos.textContent = traducir.campoapellidos;
+
+        const campodni = document.getElementById("campo-dni");
+        if (campodni) campodni.textContent = traducir.campodni;
+
+        const campoalias = document.getElementById("campo-alias");
+        if (campoalias) campoalias.textContent = traducir.campoalias;
+
+        const campocontraseña = document.getElementById("campo-contraseña");
+        if (campocontraseña) campocontraseña.textContent = traducir.campocontraseña;
+
+        const botonesfuncionales = document.getElementById("botones-funcionales");
+        if (botonesfuncionales) botonesfuncionales.textContent = traducir.botonesfuncionales;
+
+        const botonok = document.getElementById("boton-ok");
+        if (botonok) botonok.textContent = traducir.botonok;
+
+        const botoncancel = document.getElementById("boton-cancel");
+        if (botoncancel) botoncancel.textContent = traducir.botoncancel;
+
+        const funcionamiento = document.getElementById("funcionamiento");
+        if (funcionamiento) funcionamiento.textContent = traducir.funcionamiento;
+
+        const rellenarcampos = document.getElementById("rellenar-campos");
+        if (rellenarcampos) rellenarcampos.textContent = traducir.rellenarcampos;
+
+        const clicok = document.getElementById("clic-ok");
+        if (clicok) clicok.textContent = traducir.clicok;
+
+        const cliccancel = document.getElementById("clic-cancel");
+        if (cliccancel) cliccancel.textContent = traducir.cliccancel;
+
+        const resumen = document.getElementById("resumen");
+        if (resumen) resumen.textContent = traducir.resumen;
+
+        const descripcionresumen = document.getElementById("descripcion-resumen");
+        if (descripcionresumen) descripcionresumen.textContent = traducir.descripcionresumen;
 
         //Footer
         const botonAnterior = document.getElementById("boton-anterior");
