@@ -30,7 +30,6 @@ body.index {
         justify-content: center;
         align-items: center;
         max-width: 100%;
-        max-height: auto;
 
         .contenido {
             position: fixed;
@@ -61,7 +60,7 @@ body.index {
             letter-spacing: 45px;
             margin-left: 5%;
             position: absolute;
-            top: -25%;
+            top: -20%;
         }
 
         #titulo {
@@ -79,7 +78,7 @@ body.index {
             margin-left: 10%;
             color: rgba(0, 0, 0, 0.5);
             font-size: 0.9rem;
-            line-height: 150%;
+            line-height: 170%;
             display: flex;
             flex-wrap: wrap;
         }
@@ -279,7 +278,6 @@ body.page {
     .content-manual {
         position: relative;
         max-width: 50%;
-        max-height: auto;
         left: 25%;
 
         .parrafo {
@@ -423,7 +421,6 @@ body.page {
         position: sticky;
         bottom: 5%;
         left: 90%;
-        display: flexbox;
         text-align: center;
         font-weight: bold;
         color: #fff;
