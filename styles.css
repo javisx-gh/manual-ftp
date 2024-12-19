@@ -60,10 +60,8 @@ body.index {
             font-size: clamp(1.5rem, 8vw, 7rem);
             letter-spacing: 45px;
             margin-left: 5%;
-            margin-top: 20.5%;
             position: absolute;
-            top: -27%;
-
+            top: -25%;
         }
 
         #titulo {
@@ -71,20 +69,24 @@ body.index {
             text-transform: uppercase;
             font-size: 1.7rem;
             color: rgba(0, 0, 0, 0.5);
-
+            margin: 0;
         }
 
         p {
             width: 72%;
             text-align: justify;
-            margin-top: 8%;
-            margin-left: 7%;
+            margin-top: 10%;
+            margin-left: 10%;
             color: rgba(0, 0, 0, 0.5);
             font-size: 0.9rem;
             line-height: 150%;
             display: flex;
             flex-wrap: wrap;
+        }
 
+        #boton-empezar {
+            max-width: 100%;
+            width: 10%;
         }
 
         input {
@@ -92,7 +94,7 @@ body.index {
             padding: 10px;
             position: relative;
             top: 220px;
-            left: -700%;
+            left: -720%;
             font-weight: bold;
             color: #fff;
             text-transform: uppercase;
@@ -143,8 +145,6 @@ body.index {
             position: absolute;
             right: 10px;
             top: 35%;
-            /* transform: translateY(-50%); */
-            /* pointer-events: none; */
         }
     }
 }
@@ -397,6 +397,10 @@ body.page {
             color: rgba(255, 255, 255);
             cursor: pointer;
             width: 100%;
+
+            option {
+                color: rgba(0, 0, 0);
+            }
         }
 
         &:hover {
@@ -409,8 +413,6 @@ body.page {
             position: absolute;
             right: 10px;
             top: 32%;
-            /* transform: translateY(-50%);
-        pointer-events: none; */
         }
     }
 
